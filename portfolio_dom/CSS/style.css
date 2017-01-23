@@ -1,0 +1,66 @@
+h1 {
+  text-align: center;
+}
+
+body {
+  background-image: url("../img/NewYork.jpg");
+  background-size: no-repeat;
+  color: white;
+  font-family: helvetica;
+}
+
+main {
+
+}
+
+div {
+  font-size: 25px;
+}
+a {
+  font-size: 25px;
+
+}
+
+section {
+  /*display:flex;*/
+  flex-direction: row;
+  align-content: space-around;
+  border-radius: 30px;
+  /*margin: 0 auto;*/
+  opacity: .8;
+  width: 95px;
+  background: orange;
+
+  color: white;
+  /*border-radius: 10px;*/
+  /*margin: 5px;*/
+  text-align: center;
+  line-height: 100px;
+}
+
+p {
+  font-size: 22px;
+  display:flex;
+  align-content: space-between;
+  margin: 0 auto;
+}
+
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+input[type="submit"] {
+  background: orange;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+span {
+  border-radius: 15px;
+  background: orange;
+  opacity: .8;
+}
